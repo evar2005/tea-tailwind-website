@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "postcss src/styles.css -o dist/output.css"
+  }
+}

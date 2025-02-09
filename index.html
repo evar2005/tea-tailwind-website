@@ -137,15 +137,65 @@
       </section>
       <!-- Meet Our Super Clients section styles -->
       <section class="mb-20">
-        <div class="container">
-          <div class="text-white bg-gradient-to-r from-[#FF8938] to-red-600 rounded-xl p-16">
+        <div
+          class="container bg-gradient-to-r from-[#FF8938] to-red-600 rounded-xl p-5 lg:p-16 lg:flex justify-between items-center lg:h-auto md:h-[770px]">
+          <!-- Clients section title -->
+          <div class="text-white lg:w-[48%] lg:mb-0">
             <h3 class="font-extrabold text-4xl lg:text-5xl">Meet Our Super Clients</h3>
             <p class="font-medium text-base my-3.5">There are many variations of passages of Lorem Ipsum
               available, but the majority have suffered alteration in some form, by injected humour, or randomised words
-              which don't look even slightly believable. </p>
-            <button  class="bg-white text-[#FF0000] px-6 py-4 rounded-xl text-xl font-bold">Show All</button>
+              which don't look even slightly believable.</p>
+            <button class="bg-white text-orange-600 px-6 py-4 rounded-xl text-xl font-bold border-2">Show All</button>
           </div>
-          <div></div>
+
+          <!-- Card section -->
+          <div class="lg:w-[48%] relative">
+            <!-- Top card -->
+            <div
+              class="relative bg-white p-10 rounded-xl shadow-lg h-auto w-full md:w-3/4 left-0 lg:left-16 opacity-50 top-5">
+              <div class="absolute -top-5 -left-5">
+                <img src="images/client.png" alt="Client">
+              </div>
+              <div>
+                <p class="font-normal text-base text-gray-600">We provide the best and most suitable home insurance
+                  services for people looking for treatment options.</p>
+                <h6 class="font-bold text-base mt-3">Ilham Yuda</h6>
+                <p class="text-gray-600">Businessman</p>
+                <img src="images/circles.png" alt="Circles" class="lg:translate-x-56 translate-x-24">
+              </div>
+            </div>
+
+            <!-- Middle card -->
+            <div class="absolute bottom-20 right-4 md:right-10">
+              <div class="relative bg-white p-10 rounded-xl shadow-2xl z-10 w-full md:w-3/4 left-0 lg:left-16">
+                <div class="absolute -top-5 -left-5">
+                  <img src="images/client.png" alt="Client">
+                </div>
+                <div>
+                  <p class="font-normal text-base text-gray-600">We provide the best and most suitable home insurance
+                    services for people looking for treatment options.</p>
+                  <h6 class="font-bold text-base mt-3">Ilham Yuda</h6>
+                  <p class="text-gray-600">Businessman</p>
+                  <img src="images/circles.png" alt="Circles" class="lg:translate-x-56 translate-x-24">
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom card -->
+            <div
+              class="relative bg-white p-10 rounded-xl shadow-lg w-full md:w-3/4 left-0 lg:left-16 opacity-50 top-10 h-auto min-h-[250px]">
+              <div class="absolute -top-5 -left-5">
+                <img src="images/client.png" alt="Client">
+              </div>
+              <div>
+                <p class="font-normal text-base text-gray-600">We provide the best and most suitable home insurance
+                  services for people looking for treatment options.</p>
+                <h6 class="font-bold text-base mt-3">Ilham Yuda</h6>
+                <p class="text-gray-600">Businessman</p>
+                <img src="images/circles.png" alt="Circles" class="lg:translate-x-56 translate-x-24">
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- News & Events section styles -->
@@ -185,52 +235,76 @@
       </section>
       <!-- News & Events section styles end-->
     </main>
-    <!-- <footer class="w-9/12 m-auto">
-      <div>
-        <img src="images/cup.png" alt="">
-        <div>
-          <p class="font-medium text-base text-gray-600 my-3.5">Ready to get strated?</p>
-          <button>Get Started</button>
-        </div>
-      </div>
-      <div>
-        <div>
-          <h5>Quick Links</h5>
-          <a href="">Home</a>
-          <a href="">About Us</a>
-          <a href="">Insurance</a>
-          <a href="">Privacy Policy</a>
-        </div>
-        <div>
-          <h5>Our Service</h5>
-          <a href="">Life Insurance</a>
-          <a href="">Car Insurance</a>
-          <a href="">Health Insurance</a>
-          <a href="">House Insurance</a>
-        </div>
-        <div>
-          <h5>Help</h5>
-          <a href="">FAQs</a>
-          <a href="">Contact Us</a>
-        </div>
-        <div>
-          <h4 >Subscribe to our newsletter</h4>
-          <div>
-             <p>Email address</p>
-             <img src="images/btn-icon.png" alt="Button Icon">
+    <footer
+      class="max-w-[1600px] bg-[linear-gradient(to_right,rgba(255,140,0,0.2),rgba(220,38,38,0.2))] py-10 lg:py-20">
+      <div class="container lg:w-9/12 mx-auto px-7 lg:px-0">
+        <!-- footer top section styles -->
+        <div class="lg:flex md:flex items-center justify-between mb-10">
+          <!-- footer icon -->
+          <div class="flex justify-center lg:justify-start md:justify-start mb-5">
+            <img src="images/cup.png" alt="Cup Img">
           </div>
-          <hr>
-          <div>
-            <img src="images/facebook.png" alt="">
-            <img src="images/twiter.png" alt="">
-            <img src="images/instagram.png" alt="">
+          <!-- footer button -->
+          <div class="flex items-center gap-x-7">
+            <p class="font-medium text-2xl text-slate-900 my-3.5">Ready to get strated?</p>
+            <button
+              class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white p-5 rounded-xl text-xl font-bold mx-auto lg:mx-0">Get
+              Started</button>
           </div>
         </div>
+        <!-- footer top section styles end-->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-8">
+          <!-- Quick Links section  -->
+          <div>
+            <h5 class="font-semibold text-xl mb-4">Quick Links</h5>
+            <div class="font-normal text-base text-slate-700">
+              <a href="" class="block mb-2">Home</a>
+              <a href="" class="block mb-2">About Us</a>
+              <a href="" class="block mb-2">Insurance</a>
+              <a href="" class="block mb-2">Privacy Policy</a>
+            </div>
+          </div>
+          <!--Our Service section  -->
+          <div>
+            <h5 class="font-semibold text-xl mb-4">Our Service</h5>
+            <div class="font-normal text-base text-slate-700">
+              <a href="" class="block mb-2">Life Insurance</a>
+              <a href="" class="block mb-2">Car Insurance</a>
+              <a href="" class="block mb-2">Health Insurance</a>
+              <a href="" class="block mb-2">House Insurance</a>
+            </div>
+          </div>
+          <!-- Help section -->
+          <div>
+            <h5 class="font-semibold text-xl mb-4">Help</h5>
+            <div class="font-normal text-base text-slate-700">
+              <a href="" class="block mb-2">FAQs</a>
+              <a href="" class="block mb-2">Contact Us</a>
+            </div>
+          </div>
+          <!-- Subscribe to our newsletter section -->
+          <div>
+            <h4 class="font-semibold text-2xl text-start">Subscribe to our newsletter</h4>
+            <div class="flex items-center justify-between mt-7 mb-3">
+              <p class="font-normal text-sm text-slate-900">Email address</p>
+              <img src="images/btn-icon.png" alt="Button Icon">
+            </div>
+            <!-- hr -->
+            <hr class="border border-gray-800">
+            <!-- icons -->
+            <div class="text-gray-800 flex items-center space-x-5 mt-7">
+              <img src="images/facebook.png" alt="facebook">
+              <img src="images/twiter.png" alt="twiter">
+              <img src="images/instagram.png" alt="instagram">
+            </div>
+          </div>
+        </div>
+        <!-- footer bottom section styles -->
+        <div class="text-center pt-12">
+          <p class="font-medium text-base text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
       </div>
-      <div>
-        <p class="font-medium text-base text-gray-600 my-3.5">© 2027 UIDesign.to - All rights reserved.</p>
-      </div>
-    </footer> -->
+    </footer>
   </section>
 </body>
 
